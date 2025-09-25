@@ -1,0 +1,31 @@
+{
+  "device": {
+    "name": "anywharrow",
+    "location": {
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "altitude": 0.0
+    }
+  },
+  "hardware": {
+    "servo_azimuth_pin": 18,
+    "servo_elevation_pin": 19,
+    "imu_i2c_address": "0x68",
+    "display_i2c_address": "0x3c"
+  },
+  "display": {
+    "width": 128,
+    "height": 64,
+    "font_size": 12
+  },
+  "calibration": {
+    "azimuth_offset": 0.0,
+    "elevation_offset": 0.0,
+    "imu_calibration": true
+  },
+  "behavior": {
+    "update_interval_seconds": 60,
+    "smooth_transition": true,
+    "transition_duration_seconds": 5
+  }
+}

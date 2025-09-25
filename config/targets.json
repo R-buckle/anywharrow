@@ -1,0 +1,50 @@
+{
+  "targets": [
+    {
+      "name": "Mars",
+      "type": "planet",
+      "description": "The Red Planet"
+    },
+    {
+      "name": "Jupiter",
+      "type": "planet", 
+      "description": "Gas Giant"
+    },
+    {
+      "name": "International Space Station",
+      "type": "satellite",
+      "description": "ISS"
+    },
+    {
+      "name": "New York City",
+      "type": "earth_location",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "description": "NYC, USA"
+    },
+    {
+      "name": "Tokyo",
+      "type": "earth_location",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "description": "Tokyo, Japan"
+    },
+    {
+      "name": "Mount Everest",
+      "type": "earth_location",
+      "latitude": 27.9881,
+      "longitude": 86.9250,
+      "description": "Highest peak on Earth"
+    },
+    {
+      "name": "Vega",
+      "type": "star",
+      "description": "Bright star in Lyra"
+    },
+    {
+      "name": "Andromeda Galaxy",
+      "type": "deep_space",
+      "description": "M31 Galaxy"
+    }
+  ]
+}
